@@ -1,5 +1,5 @@
 # Travelopia Coding Task
-This application was developed as part of a task assigned by Travelopia during the hiring process.
+This app is about the task that was assigned me by travelopia as part of the hiring process.
 
 # Deployment
 [FrontEnd Deployed Link](https://travelopia-rust.vercel.app/)
@@ -13,25 +13,13 @@ This application was developed as part of a task assigned by Travelopia during t
 
 # AboutTask
 
- 1. Header Component:
--Developed a reusable Header component to enhance code modularity.
--Implemented dummy links using buttons to adhere to best practices when no actual link URLs are provided.
--Utilized CSS properties (display: flex and justify-content: space-around) to create a visually appealing header layout with equal spacing between buttons.
--Incorporated media queries for responsiveness, ensuring a seamless transition to a hamburger icon on screens with a width less than or equal to 400px.
--Added a subtle transition effect on page load, causing links to gracefully float from top to bottom before settling in the middle of the header.
--Integrated Chakra UI icons for the hamburger icon, enhancing visual appeal.
-2. Middle Section:
--Created a container with overflow: hidden to maintain background image display consistency during dimension changes.
--Employed the position: absolute property for the background image, ensuring it covers the entire container.
--Implemented an overlay with background-color: rgba(0, 0, 0, 0.45) and adjusted z-index values to cover the image seamlessly.
--Utilized a div with the .title class to display the title and a "Click Here" button with a higher z-index than the overlay.
--Implemented a flag boolean variable for dynamic control of the display properties of the alert and title components.
--Incorporated transition effects on the "Click Here" button and the "Ok" button, providing a responsive feel to user interactions.
-3. Footer Component:
--Maintained consistency with the header by using the same background color and height.
--Incorporated a filler text, "Copyright © 2024 Travelopia. All rights reserved."
+ I started by making three different components, Header,Home and Footer. I did it beacuse it is a standard practice to have components for reusable code. On Header I provided some dummy links. I used <button> instead of <a> tag because it is advised to not use <a> element when there are no actual href urls given to them. I used display property to get all the buttons spread in single line with equal gap between them the height of the header is 100px as it was asked in assignment document. I chose dark blue color because its seemed soothing to eyes and goes along with the background image and the whole theme of the page.To make the header responsive i used media query property of css. On Screen size less than equal to 400px the buttons will be hidden and the hamburgur icon will be visible on the header.I also added some transition to the header such as when page loads for the first time the links will float from top to bottom and settle in middle of the header.I used Chakra ui icons for the hamburger Icon.
 
-## Task Screenshot
+ The middle Section has a container with overflow set to hidden to make sure that when the dimensions are changed it does not affect the display of background image. I used img tag to set the background image and used position property to fix its position and the z-index. I set the dimension of image to 100%.The image covers the entire container.I used background-color and its alpha value to get the overlay and gave it z-index value greater than the image so that it sits on top and covers the image completely.The .title container is used to display the title and click here button. It has z-index greater than overlay. When Click here button is is clicked the alert opens with a transition.I used a flag boolean variable to dynamically change the display properties of both alert container and title container.I used some tansitions on button hover to make the page look responsive to the actions of the user.
+
+ Finally the footer, It has same background color and height as the header. I used Copyright © 2024 Travelopia. All rights reserved. as a filler text.
+
+## Project Screenshots
 
 <img src="https://i.ibb.co/q9vJJVc/Screenshot-2024-02-03-142205.png"  width="600" >
 
