@@ -13,7 +13,7 @@ const Home = () => {
     <div className='container'>
         <img id="backgroundImage" src="https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg" alt="view of a golbe in hand" loading="lazy"/>
             <div id="overlay"></div>
-            <div className={`alert ${flag? 'open' : ''}`}>
+            <div id='alert' className={`alert ${flag? 'open' : ''}`}>
               <p id='alertText' style={{fontSize:"x-large"}}>Hello, World</p>
               <button id='okBtn' onClick={handleOk}>Ok</button>
             </div>

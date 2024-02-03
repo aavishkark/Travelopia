@@ -23,6 +23,8 @@ This app is about the task that was assigned me by travelopia as part of the hir
 
 <img src="https://i.ibb.co/q9vJJVc/Screenshot-2024-02-03-142205.png"  width="600" >
 
+## Testing
+ I have used react testing library to check if the alert is working as expected or not. Run "npm test" to initialize testing.
 ## Contributor
 - [Avishkar kamble](https://github.com/aavishkark)
 
