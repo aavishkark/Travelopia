@@ -1,5 +1,5 @@
 # Travelopia Coding Task
-This app is about the task that was assigned me by travelopia as part of the hiring process.
+This application was developed as part of a task assigned by Travelopia during the hiring process.
 
 # Deployment
 [FrontEnd Deployed Link](https://travelopia-rust.vercel.app/)
