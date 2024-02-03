@@ -51,8 +51,8 @@ header{
     }
     .link{
         display: flex;
-        /* justify-content: start; */
         position: relative;
-        top:50px;
+        top:35px;
+        margin: 0 10px;
     }
 }

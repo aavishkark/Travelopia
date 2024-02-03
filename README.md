@@ -2,7 +2,7 @@
 This app is about the task that was assigned me by travelopia as part of the hiring process.
 
 # Deployment
-[FrontEnd Deployed Link](https://car-rental-tawny-three.vercel.app/)
+[FrontEnd Deployed Link](https://travelopia-rust.vercel.app/)
 
 # TechStack
 
